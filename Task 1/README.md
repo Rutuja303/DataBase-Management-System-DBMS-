@@ -11,6 +11,7 @@
 To sample data from the unsampled_image_prediction table, we first create two separate tables:
 - positive_samples
 - negative samples
+
 Positive samples are selected by ordering the data by score in descending order and picking every 3rd row using ROW_NUMBER(), limited to 10,000 rows.
 Similarly, negative samples are selected by ordering the data by score in ascending order and again selecting every 3rd row, limited to 10,000 rows.
 Finally, both the tables are combined using UNION ALL to form a balanced dataset of high and low scoring samples for further analysis or training.
