@@ -1,4 +1,5 @@
-#Task 1
+##Task 1
+
 Here is the SQL query for the Task 1:
 ```bash
   CREATE TABLE positive_samples AS
