@@ -1,9 +1,8 @@
 # Task 3
 
+The goal of task 3 is to write SQL query that advise the best quality item avalable in the inventory. We divided this task into four steps:
 
-Below are few of the SQL queries.
-
-
+Step 1: Perform  JOIN operations in order to get the desired columns.
 
 ```bash
 CREATE TABLE join_table AS
@@ -18,8 +17,7 @@ SELECT * FROM join_table;
 
 ![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/Join_Table.jpg)
 
-
-
+Step 2: There are three qualities ranked as epic>rare>common. Give each quality a index or value in order to get the highest quality item.
 
 ```bash
 CREATE TABLE p1 AS
@@ -36,8 +34,7 @@ SELECT * FROM p1;
 ```
 ![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/p1.jpg)
 
-
-
+Step 3: Now we have an extra column representing each quality a value. 
 
 ```bash
 CREATE TABLE rank_table AS
