@@ -16,6 +16,9 @@ ON accounts.id = accounts_items.account_id;
 SELECT * FROM join_table;
 ```
 
+![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/Join_Table.jpg)
+
+
 
 
 ```bash
@@ -31,6 +34,8 @@ FROM join_table;
 
 SELECT * FROM p1;
 ```
+![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/p1.jpg)
+
 
 
 
@@ -48,6 +53,8 @@ ORDER BY username;
 
 SELECT * FROM rank_table;
 ```
+![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/Rank_Table.jpg)
+
 
 
 
@@ -58,3 +65,4 @@ WHERE rn = 1
 GROUP BY username, type, quality
 ORDER BY username, type;
 ```
+![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/Final_result.jpg)
