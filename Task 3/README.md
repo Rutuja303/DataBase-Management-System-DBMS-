@@ -62,4 +62,4 @@ WHERE rn = 1
 GROUP BY username, type, quality
 ORDER BY username, type;
 ```
-![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/Final_result.jpg)
+![App Screenshot](https://github.com/Rutuja303/DataBase-Management-System-DBMS-/blob/main/Task%203/Final_table.jpg)
